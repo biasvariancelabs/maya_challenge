@@ -36,7 +36,7 @@ permalink: /rules/
 - By participating in the challenge, each competitor agrees that any dispute, claim, and cause of action arising out of or in connection with the Challenge, or any prize awarded, shall be resolved individually solely in discussion with the organizers.
 
 ### GOVERNING LAW
-- Unless otherwise provided in the competition specific rules above, all claims arising out of or relating to these Rules will be governed by EU law, excluding its conflict of laws rules, and can only be litigated at appropriate courts in Slovenia.
+- Unless otherwise provided in the competition specific rules above, all claims arising out of or relating to these Rules will be governed by Slovenian law, excluding its conflict of laws rules, and can only be litigated at appropriate courts in Slovenia.
 
 
 
