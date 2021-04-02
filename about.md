@@ -31,7 +31,7 @@ The top-3 solutions, that outscore the baseline solution (provided by the organi
 2. 1500 EUR (1200+300*)
 3. 1000 EUR (700+300*)
 
-**\*additional 300 EUR will be awarded if the competitors used the [AiTLAS toolbox](https://biasvariancelabs.github.io/aitlas) in their solution or their implementation is fully compatible within AiTLAS** (this will be determined post-competition after the review of the winning solutions).
+**\*We will award 300 EUR for winning solutions that use, employ, integrate and/or build upon the [AiTLAS toolbox](https://biasvariancelabs.github.io/aitlas) ** This bonus will be determined after code evaluation of the wining solutions.
 
 #### AiTLAS 
 
