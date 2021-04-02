@@ -10,7 +10,7 @@ In particular, the Sentinel-1 satellites  are equipped with Synthetic Aperture R
 
 *Explore the potential of the Sentinel satellite data, in combination with the available lidar data, for integrated image segmentation in order to locate and identify “lost” ancient Maya settlements (aguadas, buildings and platforms), hidden under the thick forest canopy.*
 
-### [Access the challenge platform](https://competitions.codalab.org/competitions/30429)
+### [Access the challenge platform](https://competitions.codalab.org/competitions/30429){:target="_blank"}
 
 
 ### Timeline
@@ -23,7 +23,7 @@ In particular, the Sentinel-1 satellites  are equipped with Synthetic Aperture R
 
 ### Cometition prizes
 
-The competition winners, as well as other competitors determined by the organizers, will be invited to present their work as part of this year's [ECML PKDD 2021 Discovery Challenge](https://2021.ecmlpkdd.org/).
+The competition winners, as well as other competitors determined by the organizers, will be invited to present their work as part of this year's [ECML PKDD 2021 Discovery Challenge](https://2021.ecmlpkdd.org/){:target="_blank"}.
 
 The top-3 solutions, that outscore the baseline solution (provided by the organizers) will be awarded with:
 
@@ -31,11 +31,11 @@ The top-3 solutions, that outscore the baseline solution (provided by the organi
 2. 1500 EUR (1200+300*)
 3. 1000 EUR (700+300*)
 
-**\*We will award 300 EUR for winning solutions that use, employ, integrate and/or build upon the [AiTLAS toolbox](https://biasvariancelabs.github.io/aitlas).** This bonus will be determined after code evaluation of the wining solutions.
+**\*We will award 300 EUR for winning solutions that use, employ, integrate and/or build upon the [AiTLAS toolbox](https://biasvariancelabs.github.io/aitlas){:target="_blank"}.** This bonus will be determined after code evaluation of the wining solutions.
 
 #### AiTLAS 
 
-AiTLAS is an open-source toolbox for exploratory and predictive analysis of satellite imaginary pertaining to a variety of different tasks in Earth Observation. AiTLAS has several distinguishing properties. First, it is modular and flexible - allowing for easy configuration, implementation and extension of new data and models. Next, it is general and applicable to a variety of tasks and workflows. Finally, it is user-friendly. This, besides aiding the AI community by providing access to structured EO data, more importantly, facilitates and accelerates the uptake of (advanced) machine learning methods by the EO experts, thus bringing these two communities closer together. AiTLAS is available [here](https://biasvariancelabs.github.io/aitlas).
+AiTLAS is an open-source toolbox for exploratory and predictive analysis of satellite imaginary pertaining to a variety of different tasks in Earth Observation. AiTLAS has several distinguishing properties. First, it is modular and flexible - allowing for easy configuration, implementation and extension of new data and models. Next, it is general and applicable to a variety of tasks and workflows. Finally, it is user-friendly. This, besides aiding the AI community by providing access to structured EO data, more importantly, facilitates and accelerates the uptake of (advanced) machine learning methods by the EO experts, thus bringing these two communities closer together. AiTLAS is available [here](https://biasvariancelabs.github.io/aitlas){:target="_blank"}.
 
 ### Public leaderboard
 
