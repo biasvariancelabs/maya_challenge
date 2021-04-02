@@ -21,7 +21,7 @@ In particular, the Sentinel-1 satellites  are equipped with Synthetic Aperture R
 - July 26th, 2021 - **Short paper submission** for ECML PKDD 2021 Discovery Challenge of the winning and selected solutions
 
 
-### Cometition prizes
+### Competition prizes
 
 The competition winners, as well as other competitors determined by the organizers, will be invited to present their work as part of this year's [ECML PKDD 2021 Discovery Challenge](https://2021.ecmlpkdd.org/){:target="_blank"}.
 
