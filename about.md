@@ -15,7 +15,7 @@ In particular, the Sentinel-1 satellites  are equipped with Synthetic Aperture R
 
 ### Timeline
 
-- April 1st, 2021, midnight UTC- **Challenge starts** - Fill-in [this form](https://forms.gle/pycuAiAZoCkrgsyg8) to get access of the traning dataset. Teams (of up-to 10 people) can make 3 submission per day or total of 100 submissions on [the challenge platform](https://competitions.codalab.org/competitions/30429). The performance of each submission can be viewed on the public leaderboard. 
+- April 1st, 2021, midnight UTC- **Challenge starts** - Fill-in [this form](https://forms.gle/pycuAiAZoCkrgsyg8){:target="_blank"} to get access of the traning dataset. Teams (of up-to 10 people) can make 3 submission per day or total of 100 submissions on [the challenge platform](https://competitions.codalab.org/competitions/30429){:target="_blank"}. The performance of each submission can be viewed on the public leaderboard. 
 - July 1st, 2021, midnight UTC - **Challenge ends** - The submission system closes. The organiziers will further evaluate the submissions to determine the winners. Organiziers will contact competitors for implementation details of their solution.
 - July 8th, 2021 - **Official challenge results** - Official results are publised. Prizes are awarded
 - July 26th, 2021 - **Short paper submission** for ECML PKDD 2021 Discovery Challenge of the winning and selected solutions
