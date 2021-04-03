@@ -69,7 +69,7 @@ where **number** denotes the tile number (an integer in the range of 1765 to 209
 
  
 
-A code snippet for converting a .tif binary mask to a valid .npz file is :
+A code snippet for converting a .tif binary mask (**8-bit, 0 feature present in pixel, 255 empty pixel**) to a valid .npz file is :
 
 ```python
 from scipy import sparse
