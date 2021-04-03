@@ -84,3 +84,9 @@ for file in os.listdir('predictions'):
     fname=os.path.join('predictions/', file)
     sparse.save_npz(os.path.splitext(fname)[0]+'.npz', convert_image(fname), compressed=True)
 ```
+
+### Baselines
+
+- **Default Baseline** (submission with empty masks) : submitted by *simidjievskin on April 2nd, 2021 with Avg IoU performance 0.5745 [avg IoU aguadas 0.9634; avg. IoU of buildings 0.4268; avg IoU of platfroms 0.3333]*
+- **DeepLabV3 Baseline** - *submitted by simidjievskin on April 3nd, 2021 with Avg IoU performance 0.76787 [avg IoU aguadas 0.98478; avg. IoU of buildings 0.66005; avg IoU of platfroms 0.65877]*: Deeplabv3-ResNet101 is constructed by a Deeplabv3  model ([Chen et al. 2017](https://arxiv.org/abs/1706.05587v3){:target="_blank"}) with a ResNet-101 backbone. The pre-trained model has been trained on a subset of COCO train2017, on the 20 categories that are present in the Pascal VOC dataset.  The model has been fine-tuned using only lidar data.
+
