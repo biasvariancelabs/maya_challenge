@@ -31,11 +31,11 @@ The top-3 solutions, that outscore the baseline solution (provided by the organi
 2. 1500 EUR (1200+300*)
 3. 1000 EUR (700+300*)
 
-**\*We will award 300 EUR for winning solutions that use, employ, integrate and/or build upon the [AiTLAS toolbox](https://biasvariancelabs.github.io/aitlas){:target="_blank"}.** This bonus will be determined after code evaluation of the wining solutions.
+**\*We will award 300 EUR for winning solutions that use, employ, integrate and/or build upon the [AiTLAS toolbox](https://github.com/biasvariancelabs/aitlas){:target="_blank"}.** This bonus will be determined after code evaluation of the wining solutions.
 
 #### AiTLAS 
 
-AiTLAS is an open-source toolbox for exploratory and predictive analysis of satellite imaginary pertaining to a variety of different tasks in Earth Observation. AiTLAS has several distinguishing properties. First, it is modular and flexible - allowing for easy configuration, implementation and extension of new data and models. Next, it is general and applicable to a variety of tasks and workflows. Finally, it is user-friendly. This, besides aiding the AI community by providing access to structured EO data, more importantly, facilitates and accelerates the uptake of (advanced) machine learning methods by the EO experts, thus bringing these two communities closer together. AiTLAS is available [here](https://biasvariancelabs.github.io/aitlas){:target="_blank"}.
+AiTLAS is an open-source toolbox for exploratory and predictive analysis of satellite imaginary pertaining to a variety of different tasks in Earth Observation. AiTLAS has several distinguishing properties. First, it is modular and flexible - allowing for easy configuration, implementation and extension of new data and models. Next, it is general and applicable to a variety of tasks and workflows. Finally, it is user-friendly. This, besides aiding the AI community by providing access to structured EO data, more importantly, facilitates and accelerates the uptake of (advanced) machine learning methods by the EO experts, thus bringing these two communities closer together. AiTLAS is available [here](https://github.com/biasvariancelabs/aitlas){:target="_blank"}.
 
 ### Public leaderboard
 
