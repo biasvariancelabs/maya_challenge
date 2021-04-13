@@ -57,7 +57,7 @@ The challenge will also have two separate leaderboards - a private and a public 
 
 #### Submission format
 
-Submissions should of a single **zip** file consisting of prediction of the **987** segmentation masks for each of **329** tiles in the test dataset. In particular, for each tile, the solutions should include three masks, one for each of the classes of structures – buildings, platforms, and aguadas.
+Submissions should of a single **zip** file consisting of prediction of the **987** segmentation masks for each of **329** tiles in the test dataset. In particular, for each tile, the solutions should include three masks, one for each of the classes of structures – buildings, platforms, and aguadas. *Make sure to zip the files directly, without extra directories within the zip bundle.*
 
 These are all binary masks, where black pixels depict the presence of a structure of the selected class, and white pixels correspond to absence of any structures of that class, at some position.
 
