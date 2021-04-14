@@ -91,6 +91,6 @@ for file in os.listdir('predictions'):
 - **DeepLabV3 Baseline** - *submitted by kostovskaa on April 3nd, 2021 with Avg IoU performance 0.76787 [avg IoU aguadas 0.98478; avg. IoU of buildings 0.66005; avg IoU of platfroms 0.65877]*: Deeplabv3-ResNet101 is constructed by a Deeplabv3  model ([Chen et al. 2017](https://arxiv.org/abs/1706.05587v3){:target="_blank"}) with a ResNet-101 backbone. The pre-trained model has been trained on a subset of COCO train2017, on the 20 categories that are present in the Pascal VOC dataset.  The model has been fine-tuned using only lidar data.
 
 
-#### Acknowledgement of data collection and preparation
+### Acknowledgement of data collection and preparation
 
 ALS data acquisition was financed by the KJJ Charitable Foundation, presided by Ken and Julie Jones (USA) and *The Chactún Regional Project: Study of an Archaeological Landscape in the Central Maya Lowlands* (ARRS project J6-7085; 2016-2018). Data processing was further financed by research programs *Anthropological and Spatial Studies* (ARRS P6-0079; 2015-2021) and *Earth Observation and Geoinformatics* (ARRS P2-0406; 2019-2024) and by the project *AITLAS:Artificial Intelligence Toolbox for Earth Observation* (cont.4000128994/19/D/AH, ESA, 2020-2021).
