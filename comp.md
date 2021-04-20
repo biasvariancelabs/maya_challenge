@@ -59,9 +59,9 @@ The challenge will also have two separate leaderboards - a private and a public 
 
 Submissions should of a single **zip** file consisting of prediction of the **987** segmentation masks for each of **329** tiles in the test dataset. In particular, for each tile, the solutions should include three masks, one for each of the classes of structures – buildings, platforms, and aguadas. *Make sure to zip the files directly, without extra directories within the zip bundle.*
 
-These are all binary masks, where black pixels depict the presence of a structure of the selected class, and white pixels correspond to absence of any structures of that class, at some position.
+These are all binary masks (**8-bit, 0-value feature present in pixel, 255-value empty pixel**), where black pixels depict the presence of a structure of the selected class, and white pixels correspond to absence of any structures of that class, at some position.
 
-Due to storage limitation each masks should be provided as a separate .npz file (numpy zipped archive) that includes a Compressed Sparse Row boolean matrix with 'True' values denote pixels with the presence of a structure, and 'False' values otherwise. Each .npz should have the following file name:
+Due to storage limitation each masks should be provided as a separate .npz file (numpy zipped archive) that includes a Compressed Sparse Row boolean matrix with **'True'** values denote pixels with the presence of a structure, and **'False'** values otherwise. Each .npz should have the following file name:
 
 'tile\_**number**\_mask\_**type**.npz'
 
@@ -69,7 +69,7 @@ where **number** denotes the tile number (an integer in the range of 1765 to 209
 
  
 
-A code snippet for converting a .tif binary mask (**8-bit, 0 feature present in pixel, 255 empty pixel**) to a valid .npz file is :
+A code snippet for converting a .tif binary mask (**8-bit, 0 feature present in pixel, 255 empty pixel**) to a valid boolean-matrix .npz file is :
 
 ```python
 from scipy import sparse
