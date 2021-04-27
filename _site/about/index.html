@@ -46,7 +46,7 @@
   <meta name="msapplication-TileImage" content="/maya_challenge/images/favicons/mstile-144x144.png">
   <meta name="theme-color" content="#ffffff">
   
-  <link rel="stylesheet" href="/maya_challenge/css/main.css?1617308633649089100">
+  <link rel="stylesheet" href="/maya_challenge/css/main.css?1619529243999470000">
   <link rel="canonical" href="http://localhost:4000/maya_challenge/about/">
   <link rel="alternate" type="application/rss+xml" title="Discover the mysteries of the Maya" href="/maya_challenge/feed.xml">
 </head>
@@ -146,20 +146,20 @@
 
 <p><em>Explore the potential of the Sentinel satellite data, in combination with the available lidar data, for integrated image segmentation in order to locate and identify “lost” ancient Maya settlements (aguadas, buildings and platforms), hidden under the thick forest canopy.</em></p>
 
-<h3 id="access-the-challenge-platform"><a href="https://competitions.codalab.org/competitions/30429">Access the challenge platform</a></h3>
+<h3 id="access-the-challenge-platform"><a href="https://competitions.codalab.org/competitions/30429" target="_blank">Access the challenge platform</a></h3>
 
 <h3 id="timeline">Timeline</h3>
 
 <ul>
-  <li>April 1st, 2021, midnight UTC- <strong>Challenge starts</strong> - Fill-in <a href="https://forms.gle/pycuAiAZoCkrgsyg8">this form</a> to get access of the traning dataset. Teams (of up-to 10 people) can make 3 submission per day or total of 100 submissions on <a href="https://competitions.codalab.org/competitions/30429">the challenge platform</a>. The performance of each submission can be viewed on the public leaderboard.</li>
+  <li>April 1st, 2021, midnight UTC- <strong>Challenge starts</strong> - Fill-in <a href="https://forms.gle/pycuAiAZoCkrgsyg8" target="_blank">this form</a> to get access of the traning dataset. Teams (of up-to 10 people) can make 3 submission per day or total of 100 submissions on <a href="https://competitions.codalab.org/competitions/30429" target="_blank">the challenge platform</a>. The performance of each submission can be viewed on the public leaderboard.</li>
   <li>July 1st, 2021, midnight UTC - <strong>Challenge ends</strong> - The submission system closes. The organiziers will further evaluate the submissions to determine the winners. Organiziers will contact competitors for implementation details of their solution.</li>
   <li>July 8th, 2021 - <strong>Official challenge results</strong> - Official results are publised. Prizes are awarded</li>
-  <li>Jully 26nd, 2021 - <strong>Short paper submission</strong> for ECML PKDD 2021 Discovery Challenge of the winning and selected solutions</li>
+  <li>July 26th, 2021 - <strong>Short paper submission</strong> for ECML PKDD 2021 Discovery Challenge of the winning and selected solutions</li>
 </ul>
 
-<h3 id="cometition-prizes">Cometition prizes</h3>
+<h3 id="competition-prizes">Competition prizes</h3>
 
-<p>The competition winners, as well as other competitors determined by the organizers, will be invited to present their work as part of this year’s <a href="https://2021.ecmlpkdd.org/">ECML PKDD 2021 Discovery Challenge</a>.</p>
+<p>The competition winners, as well as other competitors determined by the organizers, will be invited to present their work as part of this year’s <a href="https://2021.ecmlpkdd.org/" target="_blank">ECML PKDD 2021 Discovery Challenge</a>.</p>
 
 <p>The top-3 solutions, that outscore the baseline solution (provided by the organizers) will be awarded with:</p>
 
@@ -169,15 +169,22 @@
   <li>1000 EUR (700+300*)</li>
 </ol>
 
-<p><strong>*additional 300 EUR will be awarded if the competitors used the <a href="https://biasvariancelabs.github.io/aitlas">AiTLAS toolbox</a> in their solution or their implementation is fully compatible within AiTLAS</strong> (this will be determined post-competition after the review of the winning solutions).</p>
+<p><strong>*We will award 300 EUR for winning solutions that use, employ, integrate and/or build upon the <a href="https://github.com/biasvariancelabs/aitlas" target="_blank">AiTLAS toolbox</a>.</strong> This bonus will be determined after code evaluation of the wining solutions.</p>
 
 <h4 id="aitlas">AiTLAS</h4>
 
-<p>AiTLAS is an open-source toolbox for exploratory and predictive analysis of satellite imaginary pertaining to a variety of different tasks in Earth Observation. AiTLAS has several distinguishing properties. First, it is modular and flexible - allowing for easy configuration, implementation and extension of new data and models. Next, it is general and applicable to a variety of tasks and workflows. Finally, it is user-friendly. This, besides aiding the AI community by providing access to structured EO data, more importantly, facilitates and accelerates the uptake of (advanced) machine learning methods by the EO experts, thus bringing these two communities closer together. AiTLAS is available <a href="https://biasvariancelabs.github.io/aitlas">here</a>.</p>
+<p>AiTLAS is an open-source toolbox for exploratory and predictive analysis of satellite imaginary pertaining to a variety of different tasks in Earth Observation. AiTLAS has several distinguishing properties. First, it is modular and flexible - allowing for easy configuration, implementation and extension of new data and models. Next, it is general and applicable to a variety of tasks and workflows. Finally, it is user-friendly. This, besides aiding the AI community by providing access to structured EO data, more importantly, facilitates and accelerates the uptake of (advanced) machine learning methods by the EO experts, thus bringing these two communities closer together. AiTLAS is available <a href="https://github.com/biasvariancelabs/aitlas" target="_blank">here</a>.</p>
 
 <h3 id="public-leaderboard">Public leaderboard</h3>
 
 <iframe src="https://competitions.codalab.org/competitions/leaderboard_widget/30429/" style="height: 500px; width: 100%; border: none;"></iframe>
+
+<h5 id="baselines">Baselines</h5>
+
+<ul>
+  <li><strong>Default Baseline</strong> (submission with empty masks) : submitted by <em>simidjievskin on April 2nd, 2021 with Avg IoU performance 0.5745 [avg IoU aguadas 0.9634; avg. IoU of buildings 0.4268; avg IoU of platfroms 0.3333]</em></li>
+  <li><strong>DeepLabV3 Baseline</strong> - <em>submitted by kostovskaa on April 3nd, 2021 with Avg IoU performance 0.76787 [avg IoU aguadas 0.98478; avg. IoU of buildings 0.66005; avg IoU of platfroms 0.65877]</em>: Deeplabv3-ResNet101 is constructed by a Deeplabv3  model (<a href="https://arxiv.org/abs/1706.05587v3" target="_blank">Chen et al. 2017</a>) with a ResNet-101 backbone. The pre-trained model has been trained on a subset of COCO train2017, on the 20 categories that are present in the Pascal VOC dataset.  The model has been fine-tuned using only lidar data.</li>
+</ul>
 
 
   </section>
@@ -193,7 +200,7 @@
 </footer>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script type="text/javascript" src="/maya_challenge/js/main.js?1617308633649089100"></script>
+<script type="text/javascript" src="/maya_challenge/js/main.js?1619529243999470000"></script>
 
 
     </div>
