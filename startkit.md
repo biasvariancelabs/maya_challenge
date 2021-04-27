@@ -5,7 +5,7 @@ permalink: /startkit/
 ---
 
 
-## Example the DeepLabV3 benchmark solution with the `aitlas` toolbox
+## Example of the DeepLabV3 solution (benchmark) with the `aitlas` toolbox
 
 *Note: Datasets and model paths should be reconfigured*
 
