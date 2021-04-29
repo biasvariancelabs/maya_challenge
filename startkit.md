@@ -5,7 +5,7 @@ permalink: /startkit/
 ---
 
 
-## Example of the DeepLabV3 solution (benchmark) with the `aitlas` toolbox
+## Example of the DeepLabV3 (benchmark) solution with the `aitlas` toolbox, using *only* lidar data
 
 *Note: Datasets and model paths should be reconfigured*
 
@@ -34,7 +34,6 @@ from aitlas.visualizations import display_image_segmentation
     
 
 ## Visualize images and masks
-
 
 ```python
 example_image = Image.open('/media/ssd/Chactun/train/tile_1185_lidar.tif')
@@ -66,7 +65,7 @@ plt.show()
     
 ![png](segmentation_files/segmentation_5_0.png)
     
-
+*Note: The visualised example tiles are different from the traning data used next.*
 
 ## Load data
 
@@ -109,7 +108,6 @@ model.train_model(
     run_id='1'
 )
 
-<sup>
 ```
 
     2021-04-27 00:19:59,886 INFO Starting training.
