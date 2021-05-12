@@ -23,7 +23,7 @@ Sentinel-1 dataset: Level-1 Ground Range Detected (GRD) products of IW acquisiti
 
 Sentinel-2 dataset: Level-2A products were acquired with reflectance data from 12 spectral bands (B01, B02, B03, B04, B05, B06, B07, B08, B8A, B09, B11, B12). All bands were resampled to 10 meter resolution. Due to geographical and climate characteristics of the test area in central Yucatan peninsula (frequent small convective clouds or haze), a cloud mask was calculated for each acquisition date. Acquisition dates with cloud cover above 5% were excluded. There are 17 valid acquisition dates in the period from 2017-2020 with 12 spectral bands and a cloud mask for each date. In total, each TIFF file therefore consists of 221 bands (17 x 13 bands; 24 by 24 pixels; float).
 
-ALS (lidar) dataset: ALS data is provided in the form of a visualization composite consisting of slope, sky-view factor and positive openness in separate bands. The tiles coincide with Sentinel tiles and therefore have 480 by 480 pixels (3 bands, 8-bit).
+ALS (lidar) dataset: ALS data is provided in the form of a visualization composite consisting of sky-view factor (band 1), positive openness (band 2) and slope (band 3) in separate bands. The tiles coincide with Sentinel tiles and therefore have 480 by 480 pixels (3 bands, 8-bit).
 
 Annotation masks: separate masks for buildings, platforms and aguadas (480 by 480 pixels, 8-bit, 0 feature present, 255 not present).
 
