@@ -38,7 +38,7 @@ The top-3 solutions, that outscore the baseline solution (provided by the organi
 AiTLAS is an open-source toolbox for exploratory and predictive analysis of satellite imaginary pertaining to a variety of different tasks in Earth Observation. AiTLAS has several distinguishing properties. First, it is modular and flexible - allowing for easy configuration, implementation and extension of new data and models. Next, it is general and applicable to a variety of tasks and workflows. Finally, it is user-friendly. This, besides aiding the AI community by providing access to structured EO data, more importantly, facilitates and accelerates the uptake of (advanced) machine learning methods by the EO experts, thus bringing these two communities closer together. AiTLAS is available [here](https://github.com/biasvariancelabs/aitlas){:target="_blank"}.
 
 
-## Final Leaderboard*
+## Final Leaderboard
 
 |  	| Team 	| Avg. IOU (overall) 	| Avg. IOU of aguadas 	| Avg. IOU of platforms 	| Avg. IOU of buildings 	|
 |-	|-	|-:	|-:	|-:	|-:	|
@@ -70,9 +70,6 @@ AiTLAS is an open-source toolbox for exploratory and predictive analysis of sate
 | 25 	| Victor_Shlyakhin 	| 0.0149 	| 0.0031 	| 0.0243 	| 0.0173 	|
 
 
-
-
-_*This is (a preliminary) ranking based only on the performance on the private and public test sets. The leadearboard will be finilized after evaluating the code and the description of the winning solutions. The public leaderboard results are available on the [competition platform](https://competitions.codalab.org/competitions/30429){:target="_blank"}_
 
 <!--
 ### Public leaderboard
